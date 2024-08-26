@@ -42,17 +42,23 @@
     margin: 0 auto;
   }
   .hero {
+    display: flex;
     padding-top: 2rem;
     padding-bottom: 3rem;
   }
   .hero .left img {
-    width: 360px;
+     width: 360px;
     height: 700px;
-    margin: 70px;
+     margin: 70px; 
+  }
+  .right{
+    margin-top: 1px;
+    /* justify-content: center; */
+    padding: 0px 30px 0px 30px;
   }
   .hero .right {
     color: var(--white);
-    margin-top: -7rem;
+    margin-top: 180px;
   }
   .hero .right h6 {
     font-size: 1.6rem;
@@ -64,6 +70,7 @@
     font-weight: 100;
     line-height: 1.2;
     margin-bottom: 2rem;
+    padding-bottom: -10px;
   }
   .hero .right h1 span {
     color: var(--primary);
@@ -134,6 +141,7 @@
   .card img {
     width: 50px;
     background: white;
+    text-decoration: none;
   }
   section.services .card-grid {
     display: grid;
@@ -198,6 +206,7 @@
     cursor: pointer;
     text-transform: uppercase;
     transition: all 0.2s ease;
+    text-decoration: none;
   }
   .btn-primary {
     background-color: var(--primary);
